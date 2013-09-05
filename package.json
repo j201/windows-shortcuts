@@ -1,0 +1,13 @@
+{
+	"name" : "windows-shortcuts",
+	"version" : "0.1.0",
+	"description" : "Create, edit, and query Windows shortcuts (.lnk files)",
+	"keywords" : ["shortcut", "windows", "lnk"],
+	"license" : "MIT",
+	"author" : "j201 <j201.alex@gmail.com> (http://j201.github.io)",
+	"main" : "./lib/windows-shortcuts",
+	"repository" : {
+		"type" : "git",
+		"url" : "TODO"
+	}
+}
