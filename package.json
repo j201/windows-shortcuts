@@ -1,6 +1,6 @@
 {
 	"name" : "windows-shortcuts",
-	"version" : "0.1.0",
+	"version" : "0.1.1",
 	"description" : "Create, edit, and query Windows shortcuts (.lnk files)",
 	"keywords" : ["shortcut", "windows", "lnk"],
 	"license" : "MIT",
