@@ -8,6 +8,8 @@
 	"main" : "./lib/windows-shortcuts",
 	"repository" : {
 		"type" : "git",
-		"url" : "TODO"
-	}
+		"url" : "git://github.com/j201/windows-shortcuts.git"
+	},
+	"homepage" : "http://github.com/j201/windows-shortcuts",
+	"os" : ["win32"]
 }
