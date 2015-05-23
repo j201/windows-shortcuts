@@ -1,15 +1,24 @@
 {
-	"name" : "windows-shortcuts",
-	"version" : "0.1.1",
-	"description" : "Create, edit, and query Windows shortcuts (.lnk files)",
-	"keywords" : ["shortcut", "windows", "lnk"],
-	"license" : "MIT",
-	"author" : "j201 <j201.alex@gmail.com> (http://j201.github.io)",
-	"main" : "./lib/windows-shortcuts",
-	"repository" : {
-		"type" : "git",
-		"url" : "git://github.com/j201/windows-shortcuts.git"
-	},
-	"homepage" : "http://github.com/j201/windows-shortcuts",
-	"os" : ["win32"]
+  "name": "windows-shortcuts",
+  "version": "0.1.2",
+  "description": "Create, edit, and query Windows shortcuts (.lnk files)",
+  "keywords": [
+    "shortcut",
+    "windows",
+    "lnk"
+  ],
+  "license": "MIT",
+  "author": "j201 <j201.alex@gmail.com> (http://j201.github.io)",
+  "main": "./lib/windows-shortcuts",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/j201/windows-shortcuts.git"
+  },
+  "homepage": "http://github.com/j201/windows-shortcuts",
+  "os": [
+    "win32"
+  ],
+  "dependencies": {
+    "php-escape-shell": "^1.0.0"
+  }
 }
