@@ -2,6 +2,9 @@
   "name": "windows-shortcuts",
   "version": "0.1.1",
   "description": "Create, edit, and query Windows shortcuts (.lnk files)",
+  "scripts": {
+    "test": "node test/test.js"
+  },
   "keywords": [
     "shortcut",
     "windows",
@@ -17,5 +20,10 @@
   "homepage": "http://github.com/j201/windows-shortcuts",
   "os": [
     "win32"
-  ]
+  ],
+  "devDependencies": {
+    "tape": "^4.4.0",
+    "tmp": "0.0.28",
+    "touch": "^1.0.0"
+  }
 }

@@ -84,9 +84,15 @@ null { expanded:
 */
 ```
 
+##Testing
+
+```
+npm test
+```
+
 ##Compatibility
 Only tested on Windows 7, but shortcut.exe says is compatible with Windows 95 or later, so it should work on modern versions of Windows.
 
 ---
 
-Licensed under [the MIT License](http://opensource.org/licenses/MIT). © 2013 j201
+Licensed under [the MIT License](http://opensource.org/licenses/MIT). © 2013-2016 j201
