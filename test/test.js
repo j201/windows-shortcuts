@@ -39,7 +39,7 @@ tape("create->query", function(t) {
 		ws.query(lnkName, function(err, opts) {
 			t.notOk(err, "No errors on query");
 			Object.keys(lnkOpts).forEach(function(k) {
-				t.equal(lnkOpts[k], opts[k]);
+				t.equal(opts[k], lnkOpts[k]);
 			});
 			t.end();
 		});
@@ -72,9 +72,9 @@ tape("create->edit->query", function(t) {
 				t.notOk(err, "No errors on query");
 				Object.keys(lnkOpts).forEach(function(k) {
 					if (k in lnkNewOpts) {
-						t.equal(lnkNewOpts[k], opts[k]);
+						t.equal(opts[k], lnkNewOpts[k]);
 					} else {
-						t.equal(lnkOpts[k], opts[k]);
+						t.equal(opts[k], lnkOpts[k]);
 					}
 				});
 				t.end();
@@ -102,7 +102,7 @@ tape("create->query without target extension", function(t) {
 		ws.query(lnkName, function(err, opts) {
 			t.notOk(err, "No errors on query");
 			Object.keys(lnkOpts).forEach(function(k) {
-				t.equal(lnkOpts[k], opts[k]);
+				t.equal(opts[k], lnkOpts[k]);
 			});
 			t.end();
 		});
@@ -130,7 +130,7 @@ tape("create->query in directory", function(t) {
 		ws.query(lnkName, function(err, opts) {
 			t.notOk(err, "No errors on query");
 			Object.keys(lnkOpts).forEach(function(k) {
-				t.equal(lnkOpts[k], opts[k]);
+				t.equal(opts[k], lnkOpts[k]);
 			});
 			t.end();
 		});
@@ -161,7 +161,7 @@ tape("create->query in directory with spaces", function(t) {
 		ws.query(lnkName, function(err, opts) {
 			t.notOk(err, "No errors on query");
 			Object.keys(lnkOpts).forEach(function(k) {
-				t.equal(lnkOpts[k], opts[k]);
+				t.equal(opts[k], lnkOpts[k]);
 			});
 			t.end();
 		});
@@ -194,7 +194,7 @@ tape("create->query with environment variables", function(t) {
 				else if (k === 'target')
 					t.equal(opts[k], expandedTarget);
 				else
-					t.equal(lnkOpts[k], opts[k]);
+					t.equal(opts[k], lnkOpts[k]);
 			});
 			t.end();
 		});
