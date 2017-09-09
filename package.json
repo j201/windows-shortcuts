@@ -13,6 +13,7 @@
   "license": "MIT",
   "author": "j201 <j201.alex@gmail.com> (http://j201.github.io)",
   "main": "./lib/windows-shortcuts",
+  "typings": "./lib/windows-shortcuts.d.ts",
   "repository": {
     "type": "git",
     "url": "git://github.com/j201/windows-shortcuts.git"
