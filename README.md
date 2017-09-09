@@ -95,4 +95,4 @@ Only tested on Windows 7, but shortcut.exe says is compatible with Windows 95 or
 
 ---
 
-Licensed under [the MIT License](http://opensource.org/licenses/MIT). © 2013-2016 j201
+Licensed under [the MIT License](http://opensource.org/licenses/MIT).
