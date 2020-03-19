@@ -2,6 +2,8 @@
 ### Create, edit, and query Windows shortcuts (.lnk files)
 A Node.js API for [shortcut.exe](http://www.optimumx.com/downloads.html) by Optimum X.
 
+Note that this will not work for Electron apps - the [`shell.writeShortcutLink` or `shell.readShortcutLink` function](https://www.electronjs.org/docs/api/shell#shellreadshortcutlinkshortcutpath-windows) should be used instead.
+
 ## Simple Usage Example
 
 Creating a shortcut to notepad.exe in the current user's Start Menu:
