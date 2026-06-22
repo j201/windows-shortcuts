@@ -22,7 +22,7 @@
   "devDependencies": {
     "signal-exit": "^2.1.2",
     "tape": "^4.4.0",
-    "tmp": "0.0.28",
+    "tmp": "0.2.6",
     "touch": "^1.0.0"
   }
 }
